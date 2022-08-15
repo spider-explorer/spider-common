@@ -43,4 +43,4 @@ include($$(HOME)/include/include.pri)
 include($$(HOME)/qt/common/common.pri)
 #include($$(HOME)/qt/common/boost/boost.pri)
 
-include(../qmsgpack/qmsgpack.pri)
+include($$(REPO_SPIDER_COMMON)/qmsgpack/qmsgpack.pri)
